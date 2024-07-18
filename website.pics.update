@@ -1,0 +1,176 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+export default function App() {}
+const Header = () => {
+  const myStyle = {
+    color: "white",
+    backgroundColor: "",
+    padding: "10px",
+    fontFamily: "new times roman",
+    textAlign: "center",
+    border: "3px",
+    borderRadius: "4px",
+  };
+  const estilo2 = {
+    textAlign: "center",
+    border: "10px",
+    borderRadius: "5px",
+    color: "white",
+    backgroundColor: "#244",
+    padding: "7px",
+    fontFamily: "calibri",
+  };
+  const estilo = {
+    textAlign: "center",
+    border: "10px",
+    borderRadius: "0px",
+    color: "white",
+    backgroundColor: "#244",
+    padding: "7px",
+    fontFamily: "calibri",
+  };
+  return (
+    <>
+      <h1 style={myStyle}>Home Page</h1>
+      <p style={estilo2}>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32. Contrary to popular belief, Lorem Ipsum is not simply random
+        text. It has roots in a piece of classical Latin literature from 45 BC,
+        making it over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32.
+      </p>
+      <img
+        src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+        width="470"
+        class="center"
+      />
+      <p style={estilo}>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32.
+      </p>
+
+      <img
+        src="https://d.newsweek.com/en/full/1983028/stock-image-raccoon.jpg"
+        width="470"
+      />
+
+      <a href="https://www.uol.com.br">UOL</a>
+    </>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Header />);
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 10px;
+  padding: 4;
+  background-color: #0c0c0c;
+}
+a:hover {
+  background-color: rgb(175, 118, 32);
+  cursor: pointer;
+}
+a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: center;
+  border: 10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  color: white;
+  background-color: #234;
+  padding: 13px;
+  font-family: calibri;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+p:hover {
+  opacity: 0.5;
+}
+
+h1:hover {
+  opacity: 0.5;
+}
+
+y1 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+img:hover {
+  opacity: 0.5;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
